@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700'); /*---- same google font import as CV project but different styles
 
-/*---------------Colors---------------*/
+nav {
+    background-color: rgba(0, 0, 0, .15)
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+    background: url("../assets/images/logo_only.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
 
 /*---------------Heading---------------*/
