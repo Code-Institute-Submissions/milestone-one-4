@@ -1,25 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700'); /*---- same google font import as CV project but different styles
+@import url('https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700');
 
 nav {
-    background-color: rgba(0, 0, 0, .15)
+    background-color: black;
 }
 
 .logo {
     float: left;
-    margin-left: 20px;
-    background: url("../assets/images/logo_only.png");
+    margin-left: 15px;
+    margin-right: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    max-height: 50px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
+.uppercase {
+     text-transform: uppercase;
+}
+
+#navbar__title_text {
+    float: left;
+    font-family: Geneva, sans-serif;
+}
+
+#navbar_pages {
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+
+#navbar_pages li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active{
+     border-bottom: 1px solid #777777;
+}
 
 /*---------------Heading---------------*/
 
-
+/*---------------Paddings---------------*/
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
 
 /*---------------Footer---------------*/
