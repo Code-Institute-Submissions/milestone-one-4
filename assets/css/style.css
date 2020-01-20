@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700');
 
-nav {
-    background-color: black;
+/*---------------Colors---------------*/
+
+.firefly-orange {
+    background-color: rgb(255, 154, 0);
 }
 
+.firefly-navy {
+    background-color: rgb(20, 19, 80, .5)
+}
+
+.firefly-white {
+    background-color: rgb(223, 223, 223);
+}
+/*---------------Navbar---------------*/
 .logo {
     float: left;
-    margin-left: 15px;
-    margin-right: 20px;
+    margin: 10px 15px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,47 +28,86 @@ nav {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.uppercase {
-     text-transform: uppercase;
-}
-
-#navbar__title_text {
-    float: left;
-    font-family: Geneva, sans-serif;
-}
-
 #navbar_pages {
+    margin-top: 20px;
+    float: right;
     list-style-type: none;
     letter-spacing: 3px;
+    float: right;
+    justify-content: right;
 }
-
 
 #navbar_pages li {
     float: right;
     margin-right: 30px;
 }
 
-#menu a {
+#navbar_pages a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #777777;
+#navbar_pages a:hover {
+    border-bottom: 1px solid rgb(255, 154, 0);
+}
+/*---------------Text---------------*/
+
+.uppercase {
+     text-transform: uppercase;
 }
 
 .active{
-     border-bottom: 1px solid #777777;
+     border-bottom: 1px solid #202020;
 }
 
-/*---------------Heading---------------*/
+/*---------------Carousel---------------*/
+.carousel-container{
+    height:600px;
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
 
+#carousel{
+    height:600px;
+    width: 100%;
+    /*---background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;---*/
+
+}
+
+#carousel-text-box {
+    font-size: 130%;
+    font-family: Oswald;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(30, 44, 88, 0.7);
+
+    bottom:30px;
+    right: 120px;
+
+    position: absolute;
+}
+
+#carousel-text-box h4 {
+    font-style: italic;;thgir :   taolf
 /*---------------Paddings---------------*/
+
 h1,
 h2,
 h3,
 h4 {
-    margin: 0;
+    margin: 5px;
 }
 
 /*---------------Footer---------------*/
