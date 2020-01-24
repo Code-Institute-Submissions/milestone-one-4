@@ -7,7 +7,7 @@
 }
 
 .firefly-navy {
-    background-color: rgb(20, 19, 80, .5)
+    background-color: rgba(30, 44, 88, 0.7);
 }
 
 .firefly-white {
@@ -17,7 +17,6 @@
 .logo {
     float: left;
     margin: 10px 15px;
-    background-color: rgb(223, 223, 223);
     border-radius: 5%;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,11 +29,8 @@
 
 #navbar_pages {
     margin-top: 20px;
-    float: right;
     list-style-type: none;
     letter-spacing: 3px;
-    float: right;
-    justify-content: right;
 }
 
 #navbar_pages li {
@@ -60,30 +56,30 @@
      border-bottom: 1px solid #202020;
 }
 
-/*---------------Carousel---------------*/
-.carousel-container{
+/*---------------Main Image---------------*/
+.aerial-image-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
-#carousel{
-    height: 600px;
+#aerial-image-home{
+    height: 700px;
     width: 100%;
-    /*---background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center center;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;---*/
-
+    background: url("../images/11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#carousel-text-box {
+#image-text-box {
     font-size: 130%;
     font-family: Oswald;
     color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    text-align: center;
 
     width: 300px;
     height: 200px;
@@ -93,14 +89,43 @@
 
     background-color: rgba(30, 44, 88, 0.7);
 
-    bottom:30px;
+    top: 50px;
     right: 120px;
 
     position: absolute;
 }
 
-#carousel-text-box h4 {
-    font-style: italic;;thgir :   taolf
+#image-text-box h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+/*---------------Hire---------------*/
+
+#hire-us {
+height: 200px;
+font-size: 700;
+text-align: center;
+margin-top: 150px;
+}
+
+
+#three-reasons {
+    height: 333px;
+    text-align: center;
+}
+
+.a {
+    background-color: red;
+}
+
+.b {
+    background-color: white;
+}
+
+.c {
+    background-color: black;
+    color: white;
+}
 /*---------------Paddings---------------*/
 
 h1,
@@ -111,3 +136,7 @@ h4 {
 }
 
 /*---------------Footer---------------*/
+
+footer {
+    background-color: rgba(30, 44, 88, 0.7);
+}
