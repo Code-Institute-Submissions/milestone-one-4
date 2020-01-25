@@ -7,12 +7,13 @@
 }
 
 .firefly-navy {
-    background-color: rgba(30, 44, 88, 0.7);
+    background-color: rgb(30, 44, 88);
 }
 
 .firefly-white {
     background-color: rgb(223, 223, 223);
 }
+
 /*---------------Navbar---------------*/
 .logo {
     float: left;
@@ -99,6 +100,11 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+#image-text-box h4 {
+    color: rgb(255, 154, 0);
+}
+
 /*---------------Hire---------------*/
 
 #hire-us {
@@ -110,16 +116,27 @@ margin-top: 150px;
 
 
 #three-reasons {
-    height: 333px;
+    height: 370px;
     text-align: center;
 }
 
-.a {
-    background-color: red;
+#three-reasons div {
+    padding: 10px;
+}
+#three-reasons ul {
+    text-align: left;
+}
+.reason-one h2{
+    color: rgb(255, 154, 0);
+}
+
+.reason-one {
+    color:white;
 }
 
 .b {
-    background-color: white;
+    background-color: grey;
+    justify-content: center;
 }
 
 .c {
@@ -136,7 +153,6 @@ h4 {
 }
 
 /*---------------Footer---------------*/
-
-footer {
-    background-color: rgba(30, 44, 88, 0.7);
-}
+ .social {
+    text-align: right;
+ }
