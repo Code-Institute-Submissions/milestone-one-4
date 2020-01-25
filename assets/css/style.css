@@ -29,14 +29,10 @@
 }
 
 #navbar_pages {
+    display: inline;
     margin-top: 20px;
     list-style-type: none;
     letter-spacing: 3px;
-}
-
-#navbar_pages li {
-    float: right;
-    margin-right: 30px;
 }
 
 #navbar_pages a {
@@ -47,6 +43,7 @@
 #navbar_pages a:hover {
     border-bottom: 1px solid rgb(255, 154, 0);
 }
+
 /*---------------Text---------------*/
 
 .uppercase {
@@ -83,15 +80,15 @@
     text-align: center;
 
     width: 300px;
-    height: 200px;
+    height: 150px;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 
     background-color: rgba(30, 44, 88, 0.7);
 
     top: 50px;
-    right: 120px;
+    right: 40px;
 
     position: absolute;
 }
@@ -115,15 +112,15 @@ margin-top: 150px;
 }
 
 
-#three-reasons {
+.three-reasons {
     height: 370px;
     text-align: center;
 }
 
-#three-reasons div {
+.three-reasons div {
     padding: 10px;
 }
-#three-reasons ul {
+.three-reasons ul {
     text-align: left;
 }
 .reason-one h2{
@@ -131,15 +128,17 @@ margin-top: 150px;
 }
 
 .reason-one {
+    height: 370px;
     color:white;
 }
 
-.b {
+.reason-two {
+    height: 370px;
     background-color: grey;
-    justify-content: center;
 }
 
-.c {
+.reason-three {
+    height: 370px;
     background-color: black;
     color: white;
 }
@@ -153,6 +152,11 @@ h4 {
 }
 
 /*---------------Footer---------------*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
  .social {
     text-align: right;
  }
