@@ -15,6 +15,8 @@
 }
 
 /*---------------Navbar---------------*/
+
+/*--Removed logo because it messed up the responsive navbar--
 .logo {
     float: left;
     margin: 10px 15px;
@@ -27,60 +29,80 @@
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
-#navbar_pages {
-    display: inline;
-    margin-top: 20px;
-    list-style-type: none;
-    letter-spacing: 3px;
+*/
+.navbar {
+    border: 0;
+    margin: 10px;
 }
 
 #navbar_pages a {
-    text-decoration: none;
     color: inherit;
 }
 
 #navbar_pages a:hover {
-    border-bottom: 1px solid rgb(255, 154, 0);
+    background-color: transparent;
+    color: rgb(255, 154, 0);
 }
 
 /*---------------Text---------------*/
+h1, h2, h3, h4, h5, p {
+    font-family: "Helvitica Nue", sans-serif;
+}
 
 .uppercase {
      text-transform: uppercase;
+     letter-spacing: 3px;
 }
 
-.active{
-     border-bottom: 1px solid #202020;
+.active {
+     font-weight: bold;
 }
+
+/*---------------Dividers---------------*/
+.block-divider {
+    width: 50px;
+    height: 5px;
+    border: 0;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+
 
 /*---------------Main Image---------------*/
-.aerial-image-outer {
-    height:600px;
+.aerial-image-container {
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
+    padding: 0;
 }
 
-#aerial-image-home{
+#aerial-image {
     height: 700px;
     width: 100%;
-    background: url("../images/11.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../images/11.jpg") no-repeat top left fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 #image-text-box {
     font-size: 130%;
-    font-family: Oswald;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     letter-spacing: 3px;
     text-align: center;
 
     width: 300px;
-    height: 150px;
+    height: 175px;
 
     padding-top: 30px;
     padding-left: 10px;
@@ -100,6 +122,7 @@
 
 #image-text-box h4 {
     color: rgb(255, 154, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*---------------Hire---------------*/
@@ -108,17 +131,19 @@
 height: 200px;
 font-size: 700;
 text-align: center;
-margin-top: 150px;
+text-justify: center;
 }
 
-
 .three-reasons {
-    height: 370px;
+    
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .three-reasons div {
     padding: 10px;
+    height: 300px;
 }
 .three-reasons ul {
     text-align: left;
@@ -127,18 +152,15 @@ margin-top: 150px;
     color: rgb(255, 154, 0);
 }
 
-.reason-one {
-    height: 370px;
+#reason-one {
     color:white;
 }
 
-.reason-two {
-    height: 370px;
+#reason-two {
     background-color: grey;
 }
 
-.reason-three {
-    height: 370px;
+#reason-three {
     background-color: black;
     color: white;
 }
@@ -186,10 +208,7 @@ h4 {
 
 /*---------------Footer---------------*/
 .footer {
-  position: fixed;
-  bottom: 0;
-  background-color: white;
+  text-align: center;
+  display: inline-flex;
 }
- .social {
-    text-align: right;
- }
+
