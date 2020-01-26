@@ -154,8 +154,26 @@ margin-top: 150px;
 #portfolio img{
     width: 100%;
 }
+/*---------------Bio---------------*/
+.bio {
+    height: 200px;
+    background-color: grey;
+}
 
 
+/*---------------Contact---------------*/
+.center-form {
+    padding: 20px;
+}
+
+.contact-heading {
+    padding-top: 10px;
+    color: white;
+}
+
+.btn-offset  {
+    padding-top: 10px;
+}
 
 /*---------------Paddings---------------*/
 
