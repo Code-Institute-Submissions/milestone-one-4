@@ -84,7 +84,7 @@ I used documentation from Bootstrap for a few sections, such as the navbar. The 
 All of the images hosted on this site are my intellectual property. FireFly is a real company, registered in the state of California. My hope for this site and this program is to build a fully functional eCommerce website where customers can order prints from the skies of California directly to their doors. 
 
 ## References
-Bootstrap
-Font Awesome
-Code Institute Modules/Mini-Projects
-FireFly Solutions, LLC
+* Bootstrap
+* Font Awesome
+* Code Institute Modules/Mini-Projects
+* FireFly Solutions, LLC
