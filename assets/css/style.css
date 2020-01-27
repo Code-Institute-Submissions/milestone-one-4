@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 
-/*---------------Main Image---------------*/
+/*---------------Main Image/Splash---------------*/
 .aerial-image-container {
     height: 100vh;
     width: 100%;
@@ -93,7 +93,23 @@ h1, h2, h3, h4, h5, p {
     justify-content: center;
 
     position: relative;
+}
+
+#aerial-image-portfolio {
+    height: 700px;
+    width: 100%;
+    background: url("../images/10.jpg") no-repeat top left fixed;
     
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 .splash {
@@ -150,7 +166,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 /*---------------Hire---------------*/
-
 #hire-us {
     font-size: 700;
     text-align: center;
@@ -178,7 +193,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #reason-one {
-    color:white;
+    color:rgb(223, 223, 223);
 }
 
 #reason-two {
@@ -187,26 +202,31 @@ h1, h2, h3, h4, h5, p {
 
 #reason-three {
     background-color: black;
-    color: white;
+    color: rgb(223, 223, 223);
 }
 
 /*---------------Portfolio---------------*/
 #portfolio {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 3px;
+column-count: 4;
 }
 
-#portfolio img{
-    width: 100%;
+#portfolio row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
+
+#portfolio .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 /*---------------Bio---------------*/
 .bio {
     height: 200px;
     background-color: grey;
 }
-
 
 /*---------------Contact---------------*/
 .center-form {
@@ -215,7 +235,7 @@ h1, h2, h3, h4, h5, p {
 
 .contact-heading {
     padding-top: 10px;
-    color: white;
+    color: rgb(223, 223, 223);
 }
 
 .btn-offset  {
@@ -223,7 +243,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 /*---------------Paddings---------------*/
-
 h1,
 h2,
 h3,
