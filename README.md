@@ -1,96 +1,90 @@
 # FireFly Aerial Photography
 
-FireFly specializes in aerial photography using drones. For this project, I want to showcase the incredible perspective that drone imagery provides and pursuade the user to hire me for a job. 
+FireFly specializes in aerial photography using drones. For this project, I want to showcase the incredible perspective that drone imagery provides and pursuade the user to hire me for a job. This website is a place where users can see how FireFly is a good choice compared with the competition, take a peek at some of the past work, read about the history, and contact me to inquire about work. 
  
 ## UX
  
-This website is for consumers who want beautiful aerial artwork. They could be businesses that are looking to document their facilities from the air, or simple consumers who want a nice print of their home.
-The project should be enjoyable, they should want to peruse the inventory and it should be easy for them to navigate. The ultimate call to action will be a contact page to inquire about a print, or to request my services for a custom job.
+This website is for consumers who want drone pictures or videos. They could be businesses that are looking to document their facilities from the air, real estate agents looking to sell a home, or average consumers looking for nice wall art.
+The website should be enjoyable, they should want to peruse the inventory and it should be easy for them to navigate. The ultimate call to action will be a contact page to inquire about a print, or to request my services for a custom job.
 
-- As a vinyard owner, I want to order a custom aerial photograph and print of my property, so that I can awe my patrons and create a beautiful atmosphere for them to enjoy. 
+*User Story - As a vinyard owner, I want to order a custom aerial photograph and print of my property, so that I can entice potential customers on my own vinyard website to visit my place of business or buy my wine* 
 
 ## Wireframes
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+There will be four pages to this project, a home page (index.html), a portfolio page, a bio page, and a contact us page. 
+
+### Index Page
+![Index/home page](assets/wireframe/index.jpg)
+The index page should have a big, attention grabbing image and value proposition. Following that, I'd like to include a brief description of the company, and three reasons why patrons should choose to do business with us. The nav bar should be simple and the text should be Helvitica Nue. 
+
+### Portfolio Page
+![Portfolio](assets/wireframe/portfolio.jpg)
+This is where I showcase all the work. Images should be spaced and clearly visible. The content should be attention grabbing and convince customers that the quality of the artwork is impressive. 
+
+### Bio Page
+![Portfolio](assets/wireframe/bio.jpg)
+This is where I talk about the company and myself individually. An impressive resume and work-history will inspire potential customers to trust me. 
+
+### Contact Us Page
+![Portfolio](assets/wireframe/contact.jpg)
+The final page is where users can submit an email to me. Prompts on the page will encourage them to reach out if they have a project in mind. 
 
 ## Features
-
-Index Page
-Bio
-Portfolio
-Contact
+The features should make the site enjoyable and easy to navigate. 
  
 ### Existing Features
-- Feature 1 - Photo carousel on the landing page to showcase my best work, users can easily scroll through some sample images or watch as they gently transition
-- ...
+* Responsive Design
+* Buttons
+* Fixed background image
+* Image gallery
+* Contact form
+* External social media links
+* Youtube video
 
 ### Features Left to Implement
-- Marketplace
-- Social media feeds/links
-- Chat window
-- 
+* Marketplace
+* Social media feeds/links
+* Chat window
+* Image carousel
+* Responsive portfolio grid (change # of columns/automatically resize image)
+* Youtube links
+* Slide shows
+* Map of place of business/coverage area
 
 ## Technologies Used
--Bootstrap?
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+* HTML - language to code the pages
+* CSS - language to style the pages
+* Bootstrap - [Bootstrap](https://getbootstrap.com/) to easily create a responsive, mobile first design
+* Font Awesome Icons - [Font Awesome](https://fontawesome.com/) Easy icons
+* Gitpod - [Gitpod](https://gitpod.com) Lightweight IDE
+* Github - [Github](https://github.com/) Version management
 
 ## Testing
 
-- Individual testing
-- Friend tested
-- Mentor tested
--
+### Individual Testing
+Throughout the project I did extensive testing as I coded. I had multiple tabs open, and after each change, I saved the document and refreshed the tabs to see how the changes got implemented. I used chromes developer tools to check margins/padding as well as debug any issues that arose. I checked the site in not only desktop resolutions but also medium sized and mobile as well. Throughout coding, I would periodically "beautify" the code which would expose open divs or missing wrappers. Additionally, the Gitpod interface is very good at highlighting items in red when they will not work. 
+
+### Mentor Testing
+Halfway through the project I shared the IDE with my mentor and we stepped through the site together. He provided helpful feedback on font discrepancies and checked that all of the links were up and working for a third-party.
+
+### Friend Testing
+Lastly, I sent the site to a friend so he could test for bugs and provide feedback. 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+I used Gitpod to make changes and commits. Throughout the bulk of the project, I did not have any branches, but with this readme file I decided to explore with branching, creating a pull request, and merging into the master. From here out, I will use branches to add features or potentially deploy the site. 
 
 ## Credits
+I'd like to thank my mentor, Moosa for his help on the project as well as my friend Austin for reviewing the site. 
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+I used documentation from Bootstrap for a few sections, such as the navbar. The rest of the features/code were based off of components from projects throughout modules 1-5. 
 
 ### Media
-- The photos used in this site were mine
-- Other....
+All of the images hosted on this site are my intellectual property. FireFly is a real company, registered in the state of California. My hope for this site and this program is to build a fully functional eCommerce website where customers can order prints from the skies of California directly to their doors. 
 
-
-### Acknowledgements
-
-- I received inspiration for this project from X
-
-*References*
-https://guides.github.com/features/mastering-markdown/
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+## References
+* Bootstrap
+* Font Awesome
+* Code Institute Modules/Mini-Projects
+* FireFly Solutions, LLC
