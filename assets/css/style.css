@@ -47,15 +47,16 @@
 /*---------------Text---------------*/
 h1, h2, h3, h4, h5, p {
     font-family: "Helvitica Nue", sans-serif;
+    letter-spacing: 2px;
 }
 
 .uppercase {
-     text-transform: uppercase;
-     letter-spacing: 3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .active {
-     font-weight: bold;
+    font-weight: bold;
 }
 
 /*---------------Dividers---------------*/
@@ -92,8 +93,31 @@ h1, h2, h3, h4, h5, p {
     justify-content: center;
 
     position: relative;
+    
 }
 
+.splash {
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.splash h1 {
+    color: rgb(255, 154, 0);
+    font-family: "Helvetica Nue", sans-serif;
+    font-size: 600%;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.splash-sub {
+    color: rgb(223, 223, 223);
+    margin: 25px 0;
+    font-size: 250%;
+    font-style: italic;
+}
+
+
+/*------Flyout text box in main image-------*/
 #image-text-box {
     font-size: 130%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -128,14 +152,14 @@ h1, h2, h3, h4, h5, p {
 /*---------------Hire---------------*/
 
 #hire-us {
-height: 200px;
-font-size: 700;
-text-align: center;
-text-justify: center;
+    font-size: 700;
+    text-align: center;
+    text-justify: center;
+    margin: 20px;
+    display: block;
 }
 
 .three-reasons {
-    
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -143,7 +167,7 @@ text-justify: center;
 
 .three-reasons div {
     padding: 10px;
-    height: 300px;
+    height: 330px;
 }
 .three-reasons ul {
     text-align: left;
@@ -208,7 +232,10 @@ h4 {
 
 /*---------------Footer---------------*/
 .footer {
-  text-align: center;
-  display: inline-flex;
+    text-align: center;
+    font-size: 200%;
 }
 
+#footer {
+    margin-top: 15px;
+}
