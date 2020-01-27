@@ -172,7 +172,8 @@ h1, h2, h3, h4, h5, p {
 .three-reasons ul {
     text-align: left;
 }
-.reason-one h2{
+
+#reason-one h2{
     color: rgb(255, 154, 0);
 }
 
