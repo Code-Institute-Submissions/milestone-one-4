@@ -55,7 +55,7 @@ The features should make the site enjoyable and easy to navigate.
 * CSS - language to style the pages
 * Bootstrap - [Bootstrap](https://getbootstrap.com/) to easily create a responsive, mobile first design
 * Font Awesome Icons - [Font Awesome](https://fontawesome.com/) Easy icons
-* Gitpod - [Gitpod](https://gitpod.com) Lightweight IDE
+* Gitpod - [Gitpod](https://gitpod.io) Lightweight IDE
 * Github - [Github](https://github.com/) Version management
 
 ## Testing
