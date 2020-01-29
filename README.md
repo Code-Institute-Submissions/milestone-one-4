@@ -26,7 +26,7 @@ This is where I talk about the company and myself individually. An impressive re
 
 ### Contact Us Page
 ![Portfolio](assets/wireframe/contact.jpg)
-The final page is where users can submit an email to me. Prompts on the page will encourage them to reach out if they have a project in mind. 
+The final page is where users can submit an email to me. Prompts on the page will encourage them to reach out if they have a project in mind. Right now, the contact form is not connected to anything on the backend, but in future work it will actually send an email. 
 
 ## Features
 The features should make the site enjoyable and easy to navigate. 
@@ -78,7 +78,7 @@ I used Gitpod to make changes and commits. Throughout the bulk of the project, I
 I'd like to thank my mentor, Moosa for his help on the project as well as my friend Austin for reviewing the site. 
 
 ### Content
-I used documentation from Bootstrap for a few sections, such as the navbar. The rest of the features/code were based off of components from projects throughout modules 1-5. 
+I used documentation from Bootstrap for a few sections, such as the navbar. The rest of the features/code were based off of components from code institute projects throughout modules 1-5. 
 
 ### Media
 All of the images hosted on this site are my intellectual property. FireFly is a real company, registered in the state of California. My hope for this site and this program is to build a fully functional eCommerce website where customers can order prints from the skies of California directly to their doors. 

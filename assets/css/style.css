@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo:100,200,300,400,500,600,700|Dosis:100,200,300,400,500,600,700');
 
 /*---------------Colors---------------*/
 
@@ -41,6 +40,10 @@ h1, h2, h3, h4, h5, p {
 .uppercase {
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.text-centered {
+    text-align: center;
 }
 
 .active {
@@ -196,7 +199,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #reason-two {
-    background-color: grey;
+    background-color: rgb(223, 223, 223);
 }
 
 #reason-three {
@@ -206,35 +209,100 @@ h1, h2, h3, h4, h5, p {
 
 /*---------------Portfolio---------------*/
 #portfolio {
-column-count: 4;
+    column-count: 4;
 }
 
 #portfolio row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
 #portfolio .column img {
-  margin-top: 12px;
-  vertical-align: middle;
-  width: 100%;
+    margin-top: 12px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 /*---------------Bio---------------*/
-.bio {
-    height: 200px;
-    text-align: center;
+.history-dates {
+    margin-bottom: 20px;
 }
 
-#partners h2 {
+
+.history-item {
+    padding: 4em 3em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.history-item p {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+.history-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.history-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+#history h2 {
+    text-align: center;
     color: rgb(223, 223, 223);
     margin-top: 10px;
 }
 
-#projects h2 {
+
+#team h2 {
+    text-align: center;
     color: inherit;
     margin-top: 10px;
+}
+
+#team p {
+    padding:0 15px;
+}
+
+#headshot-container  {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+ 
+#headshot-cover-dan  {
+    background: url("../images/headshot-dan.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#headshot-cover-josh  {
+    background: url("../images/headshot-josh.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 /*---------------Contact---------------*/
 .center-form {
