@@ -64,15 +64,13 @@ The features should make the site enjoyable and easy to navigate.
 Throughout the project I did extensive testing as I coded. I had multiple tabs open, and after each change, I saved the document and refreshed the tabs to see how the changes got implemented. I used chromes developer tools to check margins/padding as well as debug any issues that arose. I checked the site in not only desktop resolutions but also medium sized and mobile as well. Throughout coding, I would periodically "beautify" the code which would expose open divs or missing wrappers. Additionally, the Gitpod interface is very good at highlighting items in red when they will not work. 
 
 ### Mentor Testing
-Halfway through the project I shared the IDE with my mentor and we stepped through the site together. He provided helpful feedback on font discrepancies and checked that all of the links were up and working for a third-party.
+Halfway through the project I shared the IDE with my mentor and we stepped through the site together. He provided helpful feedback on font discrepancies and checked that all of the links and images were up and working for a third-party.
 
 ### Friend Testing
 Lastly, I sent the site to a friend so he could test for bugs and provide feedback. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
 ## Deployment
-I used Gitpod to make changes and commits. Throughout the bulk of the project, I did not have any branches, but with this readme file I decided to explore with branching, creating a pull request, and merging into the master. From here out, I will use branches to add features or potentially deploy the site. 
+I used Gitpod to make changes and commits. Throughout the bulk of the project, I did not have any branches, but with this readme file I decided to explore with branching, creating a pull request, and merging into the master. For the deployment, I decided to use github pages as it was the simplest option. 
 
 ## Credits
 I'd like to thank my mentor, Moosa for his help on the project as well as my friend Austin for reviewing the site. 
